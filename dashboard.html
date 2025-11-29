@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Waste Detection Dashboard</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Plotly -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <style>
+    body {
+      background: #f8f9fa;
+    }
+    .card {
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    #uploadedImage, #videoFeed {
+      border-radius: 12px;
+      border: 2px solid #343a40;
+      max-width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body class="container-fluid py-4">
+
+  <h1 class="text-center mb-4 text-primary">⚡ E-Waste Detection Dashboard ⚡</h1>
+
+  <div class="row g-4">
+    <!-- Image Upload -->
+    <div class="col-md-4">
+      <div class="card p-3 text-center">
+        <h4 class="mb-3">Upload Image</h4>
+        <input type="file" id="imageInput" accept="image/*" class="form-control mb-3">
+        <button class="btn btn-success btn-lg" onclick="uploadAndDetect()">📤 Upload & Detect</button>
+        <img id="uploadedImage" src="" alt="Uploaded Image">
+      </div>
+    </div>
+
+    <!-- Detection Results -->
+    <div class="col-md-4">
+      <div class="card p-3">
+        <h4 class="text-center mb-3">Results</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><b>Category:</b> <span id="category">-</span></li>
+          <li class="list-group-item"><b>Component:</b> <span id="component">-</span></li>
+          <li class="list-group-item"><b>Hazardous Level:</b> <span id="hazardous">-</span>%</li>
+          <li class="list-group-item"><b>Materials:</b> <span id="materials">-</span></li>
+          <li class="list-group-item"><b>Deconstruction Method:</b> <span id="decon_method">-</span></li>
+          <li class="list-group-item"><b>Confidence:</b> <span id="decon_conf">-</span>%</li>
+          <li class="list-group-item"><b>Alternative Methods:</b> <span id="alt_methods">-</span></li>
+        
+           </ul>
+      
+      </div>
+   
+    </div>
+<div class="col-md-4">
+      <div class="card p-3">
+    <h4 class="text-center mt-3 mb-3">Hazardous Level</h4>
+      <div id="gauge"></div>
+      </div></div>
+
+
+  <script>
+    // -------------------
+    // Gauge chart
+    // -------------------
+    function updateGauge(value) {
+      var data = [{
+        type: "indicator",
+        mode: "gauge+number",
+        value: value,
+        title: { text: "Hazardous Level", font: { size: 20 } },
+        gauge: {
+          axis: { range: [0, 100], tickwidth: 1, tickcolor: "darkgray" },
+          bar: { color: "black" },
+          steps: [
+            { range: [0, 30], color: "#28a745" },
+            { range: [30, 60], color: "#ffc107" },
+            { range: [60, 100], color: "#dc3545" }
+          ],
+        }
+      }];
+      Plotly.newPlot('gauge', data, {responsive: true});
+    }
+    updateGauge(0);
+
+    // -------------------
+    // Upload image and get prediction
+    // -------------------
+    async function uploadAndDetect() {
+      const input = document.getElementById('imageInput');
+      if (!input.files || !input.files[0]) {
+        alert("Please select an image first!");
+        return;
+      }
+
+      const file = input.files[0];
+
+      // Preview uploaded image immediately
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        document.getElementById('uploadedImage').src = e.target.result;
+      }
+      reader.readAsDataURL(file);
+
+      // Upload to FastAPI
+      const formData = new FormData();
+      formData.append("file", file);
+
+      try {
+        const response = await fetch("/predict", { method: "POST", body: formData });
+        const data = await response.json();
+
+        if (data.error) {
+          alert(data.error);
+          return;
+        }
+
+        // Update results
+        document.getElementById("category").innerText = data.category + ` (${data.ewaste_confidence}%)`;
+        document.getElementById("component").innerText = data.component + ` (${data.component_confidence}%)`;
+        document.getElementById("hazardous").innerText = data.hazardous_level;
+        
+
+        // Deconstruction method and alternatives
+        if (data.deconstruction_method) {
+          document.getElementById("decon_method").innerText = data.deconstruction_method.recommended_method || "-";
+          document.getElementById("decon_conf").innerText = data.deconstruction_method.confidence ? data.deconstruction_method.confidence.toFixed(2) : "-";
+          // Materials as bullet points
+let matElem = document.getElementById("materials");
+if (data.materials && data.materials.length) {
+  matElem.innerHTML = "<ul>" + data.materials.map(m => `<li>${m}</li>`).join("") + "</ul>";
+} else {
+  matElem.innerText = "-";
+}
+
+// Alternative methods as bullet points
+let altElem = document.getElementById("alt_methods");
+if (data.deconstruction_method.alternative_methods && data.deconstruction_method.alternative_methods.length) {
+  altElem.innerHTML = "<ul>" + data.deconstruction_method.alternative_methods.map(a => `<li>${a.method}</li>`).join("") + "</ul>";
+} else {
+  altElem.innerText = "-";
+}
+
+        } else {
+          document.getElementById("decon_method").innerText = "-";
+          document.getElementById("decon_conf").innerText = "-";
+          document.getElementById("alt_methods").innerText = "-";
+        }
+
+        // Update hazardous gauge
+        updateGauge(data.hazardous_level);
+
+      } catch (err) {
+        alert("Error uploading image: " + err);
+      }
+    }
+  </script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

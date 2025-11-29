@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Detection Digital Twin</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --border-color: #e0e0e0;
+            --text-color: #333333;
+            --header-color: #007bff;
+            --accent-color: #28a745;
+        }
+        body { background-color: var(--bg-color); color: var(--text-color); font-family: 'Poppins', sans-serif; }
+        .navbar { background-color: var(--card-bg); border-bottom: 1px solid var(--border-color); }
+        .navbar-brand { font-weight: 600; color: var(--header-color); display:flex; align-items:center; }
+        .card { background-color: var(--card-bg); border:1px solid var(--border-color); border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.05); margin-bottom:25px; }
+        .card-header { background-color:#f8f9fa; font-weight:600; border-bottom:1px solid var(--border-color); display:flex; align-items:center; }
+        .video-container { position:relative; width:100%; padding-top:56.25%; }
+        .video-container img { position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; border-radius:8px; border:1px solid var(--border-color); }
+        .log-box { background-color:#e9ecef; border:1px solid var(--border-color); border-radius:8px; padding:15px; height:250px; overflow-y:auto; font-size:0.85rem; font-family:'Courier New', monospace; white-space:pre-wrap; }
+        .badge { font-size:0.75em; font-weight:600; padding:0.4em 0.8em; border-radius:12px; vertical-align:middle; margin-left:5px; }
+        .badge-success { background-color: #28a745; color:#fff; }
+        .badge-warning { background-color: #ffc107; color:#000; }
+        .badge-danger { background-color: #dc3545; color:#fff; }
+        .circular-chart { display:block; margin:10px auto; max-width:100px; max-height:100px; transform:rotate(-90deg); }
+        .circle-bg { fill:none; stroke:#ddd; stroke-width:3.8; }
+        .circle { fill:none; stroke-width:3.8; stroke-linecap:round; transition: stroke-dasharray 0.7s ease-in-out; }
+        .circle-low { stroke:#28a745; }
+        .circle-medium { stroke:#ffc107; }
+        .circle-high { stroke:#dc3545; }
+        .percentage-text { fill:var(--text-color); text-anchor:middle; font-size:0.8rem; font-weight:600; transform:rotate(90deg) translate(-50%,-50%); }
+        .percentage-container { display:flex; justify-content:center; align-items:center; flex-direction:column; margin-top:15px; }
+        .hazard-info { text-align:center; margin-top:15px; }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span class="icon">♻️</span> E-Waste Detection Digital Twin</a>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <!-- Live Feed -->
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">📷 Live Camera Feed</div>
+                    <div class="card-body">
+                        <div class="video-container">
+                            <img id="video-feed" src="/video_feed" alt="Live Feed">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detection Info -->
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">🔍 Detection Info</div>
+                    <div class="card-body">
+                        <p><strong>Component:</strong> <span id="component-name">N/A</span></p>
+                        <p><strong>Confidence:</strong> <span id="component-confidence">-</span>%</p>
+                        <p><strong>Category:</strong> <span id="category">-</span> <span class="badge" id="ewaste-badge"></span></p>
+
+                        <div class="percentage-container">
+                            <svg class="circular-chart" viewBox="0 0 36 36">
+                                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                                <path id="hazard-circle" class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                                <text id="hazard-text" x="18" y="20.35" class="percentage-text"></text>
+                            </svg>
+                            <div class="hazard-info">
+                                <p><strong>Hazard Level:</strong> <span id="hazard-level">-</span></p>
+                                <small id="hazard-description" class="text-muted"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Materials & Deconstruction -->
+                <div class="row mt-2">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">🧩 Materials</div>
+                            <div class="card-body"><p id="materials">-</p></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">🛠️ Deconstruction Method</div>
+                            <div class="card-body">
+                                <p><strong>Recommended:</strong> <span id="decon-method">-</span></p>
+                                <p><strong>Confidence:</strong> <span id="decon-conf">-</span></p>
+                                <p><strong>Alternatives:</strong> <span id="alt-methods">-</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logs -->
+        <div class="row mt-4">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">📜 Detection Logs</div>
+                    <div class="card-body">
+                        <div id="logs" class="log-box">Loading logs...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+async function fetchLatest() {
+    try {
+        const res = await fetch("/latest_result");
+        const data = await res.json();
+        if(!data || data.status === "no data") return;
+
+        document.getElementById("component-name").innerText = data.component;
+        document.getElementById("component-confidence").innerText = data.component_confidence;
+        document.getElementById("category").innerText = data.category;
+
+        const ewasteBadge = document.getElementById("ewaste-badge");
+        ewasteBadge.innerText = data.ewaste_confidence + "%";
+        ewasteBadge.className = "badge " + (data.ewaste_confidence > 75 ? "badge-success":"badge-warning");
+
+        const percentage = (data.hazardous_level/5)*100;
+        const circumference = 2 * Math.PI * 15.9155;
+        const dashoffset = circumference - (percentage/100)*circumference;
+        const hazardCircle = document.getElementById("hazard-circle");
+        const hazardText = document.getElementById("hazard-text");
+
+        hazardCircle.style.strokeDasharray = `${circumference} ${circumference}`;
+        hazardCircle.style.strokeDashoffset = dashoffset;
+
+        let colorClass="", desc="";
+        if(data.hazardous_level>=4){colorClass="circle-high"; desc="Very High Risk";}
+        else if(data.hazardous_level>=2.5){colorClass="circle-medium"; desc="High Risk";}
+        else if(data.hazardous_level>=1){colorClass="circle-low"; desc="Medium Risk";}
+        else {colorClass="circle-low"; desc="Low Risk";}
+        hazardCircle.className.baseVal = `circle ${colorClass}`;
+        hazardText.textContent = `${percentage.toFixed(0)}%`;
+        document.getElementById("hazard-level").innerText = data.hazardous_level;
+        document.getElementById("hazard-description").innerText = desc;
+
+        document.getElementById("materials").innerText = data.materials.join(", ") || "N/A";
+        document.getElementById("decon-method").innerText = data.deconstruction_method.recommended_method;
+        document.getElementById("decon-conf").innerText = data.deconstruction_method.confidence.toFixed(2);
+        document.getElementById("alt-methods").innerText = data.deconstruction_method.alternative_methods.map(a=>a.method).join(", ") || "N/A";
+
+    } catch(e){console.error(e);}
+}
+
+async function fetchLogs() {
+    try {
+        const res = await fetch("/logs");
+        const data = await res.json();
+        const logBox = document.getElementById("logs");
+        logBox.innerText = data.logs.join("\n") || "No logs found.";
+        logBox.scrollTop = logBox.scrollHeight;
+    } catch(e){console.error(e);}
+}
+
+// Update dashboard in real-time
+setInterval(fetchLatest, 1000);  // every 1 second
+setInterval(fetchLogs, 2000);    // every 2 seconds
+
+// Initial fetch on page load
+window.onload = () => {
+    fetchLatest();
+    fetchLogs();
+};
+</script>
+</body>
+</html>

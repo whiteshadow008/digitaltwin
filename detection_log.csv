@@ -1,0 +1,204 @@
+timestamp,category,ewaste_conf,component,component_conf,hazardous_level,materials,recommended_method,confidence,alternative_methods
+2025-09-12 18:16:03,Non-E-waste,67.23,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:21:55,Non-E-waste,68.5,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:22:08,Non-E-waste,68.21,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:22:18,Non-E-waste,68.07,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:22:28,Non-E-waste,62.42,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:22:38,Non-E-waste,55.94,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:22:49,E-waste,75.25,headset,71.46,34,Plastic (35%)|Metal (20%)|Electronics (20%)|Foam (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:23:00,Non-E-waste,65.33,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:23:10,Non-E-waste,63.5,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:23:20,Non-E-waste,62.63,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:23:30,Non-E-waste,62.78,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:23:41,Non-E-waste,60.01,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:23:51,Non-E-waste,60.45,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:24:01,Non-E-waste,60.96,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:24:11,Non-E-waste,65.34,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:24:21,Non-E-waste,65.83,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:24:32,Non-E-waste,65.26,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:24:42,Non-E-waste,65.32,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:24:52,Non-E-waste,65.25,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:25:02,Non-E-waste,65.09,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:31:20,E-waste,90.17,hdd,55.9,32,Aluminium (35%)|Electronics (25%)|Magnetic Material (25%)|Glass (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:31:32,E-waste,98.81,hdd,50.43,32,Aluminium (35%)|Electronics (25%)|Magnetic Material (25%)|Glass (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:31:43,Non-E-waste,65.05,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:31:53,E-waste,70.52,laptop,85.96,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:32:03,Non-E-waste,69.44,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:32:15,Non-E-waste,69.73,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:32:25,E-waste,78.29,cables,54.3,29,Copper (50%)|Plastic (35%)|Rubber (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:32:35,E-waste,71.08,laptop,95.9,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:32:46,Non-E-waste,68.4,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:32:56,Non-E-waste,70.0,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:33:06,Non-E-waste,69.85,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:33:16,E-waste,98.91,laptop,93.05,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:44:41,Non-E-waste,59.53,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:44:53,E-waste,99.29,monitor,46.44,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:45:04,E-waste,78.34,monitor,29.49,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:45:14,E-waste,88.34,battery,63.71,57,Lithium (30%)|Metal Casing (25%)|Cobalt (25%)|Graphite (20%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:45:24,E-waste,98.75,cpu,24.04,20,Silicon (40%)|Copper (25%)|Aluminium (20%)|Gold (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:45:35,E-waste,97.96,laptop,99.94,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:45:45,Non-E-waste,69.25,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:45:55,Non-E-waste,69.02,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:46:06,Non-E-waste,61.3,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:46:16,Non-E-waste,68.34,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:46:26,Non-E-waste,68.77,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:46:36,Non-E-waste,68.82,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:46:47,Non-E-waste,60.59,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:46:57,E-waste,89.22,monitor,51.36,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:47:07,E-waste,99.86,laptop,99.99,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:47:18,E-waste,75.52,keyboard,88.59,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:47:28,Non-E-waste,69.62,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:47:38,Non-E-waste,69.44,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:47:48,E-waste,76.67,monitor,40.58,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:47:59,E-waste,77.66,monitor,43.21,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:48:09,E-waste,77.3,monitor,54.06,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:48:20,E-waste,71.03,monitor,27.73,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:48:30,E-waste,76.99,monitor,73.36,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:48:41,E-waste,76.89,monitor,72.18,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:48:51,E-waste,76.87,monitor,72.19,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:49:01,E-waste,76.62,monitor,65.17,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:49:12,E-waste,75.1,monitor,46.03,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:49:22,E-waste,75.27,monitor,51.83,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:49:33,E-waste,75.48,monitor,51.14,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:49:43,E-waste,74.55,monitor,50.17,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:49:53,E-waste,75.67,monitor,36.53,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:50:04,E-waste,75.4,monitor,72.59,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:50:14,E-waste,75.29,monitor,66.4,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:55:18,Non-E-waste,69.85,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:55:30,Non-E-waste,69.67,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:55:40,Non-E-waste,69.82,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:55:51,Non-E-waste,69.76,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:56:01,Non-E-waste,69.72,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:56:11,Non-E-waste,69.72,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:56:21,Non-E-waste,69.82,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:56:32,Non-E-waste,69.89,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:56:42,Non-E-waste,69.76,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:56:52,Non-E-waste,69.6,N/A,0.0,0,,N/A,0.0,
+2025-09-12 18:57:02,E-waste,100.0,hdd,30.87,32,Aluminium (35%)|Electronics (25%)|Magnetic Material (25%)|Glass (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:57:13,E-waste,89.51,laptop,79.12,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 18:57:23,E-waste,95.68,laptop,99.4,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:45:40,E-waste,71.54,cpu coolers,68.58,21,Aluminium (40%)|Copper (30%)|Fan Blades (20%)|Plastic (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:45:53,Non-E-waste,65.46,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:46:03,Non-E-waste,64.22,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:46:13,Non-E-waste,64.7,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:46:23,Non-E-waste,64.6,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:46:34,Non-E-waste,66.91,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:46:44,Non-E-waste,63.95,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:46:54,E-waste,100.0,laptop,55.57,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:47:05,E-waste,99.47,keyboard,99.72,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:47:15,E-waste,87.08,keyboard,76.28,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:47:25,E-waste,94.25,keyboard,55.7,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:47:36,E-waste,82.28,monitor,36.21,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:47:46,Non-E-waste,67.67,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:47:57,E-waste,99.99,laptop,89.89,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:48:07,E-waste,98.19,keyboard,56.87,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:48:17,E-waste,99.97,cpu,53.89,20,Silicon (40%)|Copper (25%)|Aluminium (20%)|Gold (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:48:28,E-waste,100.0,hdd,42.58,32,Aluminium (35%)|Electronics (25%)|Magnetic Material (25%)|Glass (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:48:38,E-waste,81.29,laptop,86.8,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:48:49,E-waste,77.36,headset,93.61,34,Plastic (35%)|Metal (20%)|Electronics (20%)|Foam (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:48:59,E-waste,95.27,headset,26.01,34,Plastic (35%)|Metal (20%)|Electronics (20%)|Foam (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:49:09,E-waste,98.83,keyboard,99.52,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:49:20,Non-E-waste,66.84,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:49:30,Non-E-waste,68.71,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:49:40,E-waste,99.92,laptop,57.88,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:49:51,E-waste,99.89,keyboard,87.42,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 21:50:01,Non-E-waste,69.78,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:54:16,Non-E-waste,69.81,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:54:29,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:54:39,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:54:49,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:54:59,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:55:10,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:55:20,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:55:30,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:55:40,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:55:51,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:56:01,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:56:11,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:56:21,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:56:31,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:56:42,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:56:52,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:57:02,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:57:13,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:57:23,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:57:33,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:57:43,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:57:54,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 21:58:04,Non-E-waste,62.57,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:27:02,E-waste,78.07,monitor,60.69,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:27:15,E-waste,73.4,microphone,61.26,39,Plastic (40%)|Metal (30%)|Electronics (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:27:25,E-waste,82.53,laptop,64.25,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:27:35,E-waste,73.6,keyboard,42.12,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:27:46,E-waste,90.3,mouse,88.87,39,Plastic (50%)|Circuit Board (25%)|Metal (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:27:56,Non-E-waste,60.34,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:28:07,E-waste,84.96,mouse,52.48,39,Plastic (50%)|Circuit Board (25%)|Metal (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:28:17,Non-E-waste,66.5,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:28:27,E-waste,90.38,keyboard,77.34,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:28:38,Non-E-waste,65.79,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:28:48,Non-E-waste,56.2,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:28:58,E-waste,99.3,cpu,44.31,20,Silicon (40%)|Copper (25%)|Aluminium (20%)|Gold (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:29:08,E-waste,92.67,keyboard,78.38,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:29:19,E-waste,88.82,laptop,74.59,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:29:30,E-waste,70.08,cpu,32.93,20,Silicon (40%)|Copper (25%)|Aluminium (20%)|Gold (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:29:40,Non-E-waste,68.36,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:29:50,E-waste,87.2,monitor,79.28,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:30:01,E-waste,96.29,keyboard,99.71,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:30:11,E-waste,84.08,monitor,85.87,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:30:21,E-waste,70.5,mouse,84.53,39,Plastic (50%)|Circuit Board (25%)|Metal (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:30:32,E-waste,80.22,mouse,46.8,39,Plastic (50%)|Circuit Board (25%)|Metal (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:30:42,Non-E-waste,61.81,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:30:53,E-waste,90.13,keyboard,99.11,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:31:03,E-waste,90.42,cables,27.73,29,Copper (50%)|Plastic (35%)|Rubber (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:31:13,Non-E-waste,67.87,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:31:24,E-waste,74.63,keyboard,99.95,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:31:34,Non-E-waste,64.03,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:31:44,E-waste,75.86,Processor,27.11,0,,Manual_Disassembly_General,0.7754548905458952,Manual_Disassembly_General|Robotic_Screen_Removal|Automated_Shredding
+2025-09-12 22:31:55,E-waste,77.18,laptop,37.71,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:32:05,Non-E-waste,67.7,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:32:15,Non-E-waste,68.89,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:32:26,E-waste,94.22,monitor,54.9,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:32:36,Non-E-waste,67.3,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:32:46,Non-E-waste,66.25,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:32:56,Non-E-waste,58.93,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:33:07,Non-E-waste,60.91,N/A,0.0,0,,N/A,0.0,
+2025-09-12 22:33:17,E-waste,88.5,battery,62.76,57,Lithium (30%)|Metal Casing (25%)|Cobalt (25%)|Graphite (20%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-12 22:33:27,E-waste,85.93,monitor,87.53,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:50:49,E-waste,75.32,headset,38.64,34,Plastic (35%)|Metal (20%)|Electronics (20%)|Foam (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:51:01,E-waste,74.37,battery,81.32,57,Lithium (30%)|Metal Casing (25%)|Cobalt (25%)|Graphite (20%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:51:11,E-waste,74.65,headset,34.54,34,Plastic (35%)|Metal (20%)|Electronics (20%)|Foam (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:51:22,E-waste,73.02,battery,77.88,57,Lithium (30%)|Metal Casing (25%)|Cobalt (25%)|Graphite (20%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:51:32,E-waste,92.28,battery,66.03,57,Lithium (30%)|Metal Casing (25%)|Cobalt (25%)|Graphite (20%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:51:42,E-waste,99.93,laptop,42.61,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:51:53,E-waste,74.15,laptop,77.61,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:52:03,Non-E-waste,62.26,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:52:14,E-waste,75.67,headset,27.84,34,Plastic (35%)|Metal (20%)|Electronics (20%)|Foam (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:52:24,E-waste,97.54,headset,74.62,34,Plastic (35%)|Metal (20%)|Electronics (20%)|Foam (15%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:52:34,E-waste,81.96,keyboard,65.07,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:52:45,Non-E-waste,62.45,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:52:55,Non-E-waste,65.34,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:53:05,Non-E-waste,65.29,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:53:15,Non-E-waste,64.61,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:53:26,Non-E-waste,65.79,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:53:36,Non-E-waste,65.62,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:53:46,Non-E-waste,63.7,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:53:56,E-waste,76.89,monitor,43.95,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:54:07,E-waste,74.42,speakers,66.9,34,Plastic (35%)|Metal (30%)|Magnets (20%)|Rubber (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:54:18,E-waste,78.36,speakers,91.13,34,Plastic (35%)|Metal (30%)|Magnets (20%)|Rubber (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:54:28,E-waste,78.61,speakers,87.62,34,Plastic (35%)|Metal (30%)|Magnets (20%)|Rubber (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:54:38,E-waste,77.79,speakers,81.24,34,Plastic (35%)|Metal (30%)|Magnets (20%)|Rubber (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:54:49,E-waste,76.18,speakers,89.56,34,Plastic (35%)|Metal (30%)|Magnets (20%)|Rubber (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:54:59,E-waste,78.15,speakers,74.23,34,Plastic (35%)|Metal (30%)|Magnets (20%)|Rubber (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:55:10,E-waste,77.61,speakers,81.82,34,Plastic (35%)|Metal (30%)|Magnets (20%)|Rubber (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:55:20,Non-E-waste,68.05,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:55:30,Non-E-waste,68.06,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:55:41,Non-E-waste,68.89,N/A,0.0,0,,N/A,0.0,
+2025-09-13 00:59:43,E-waste,91.41,hdd,27.07,32,Aluminium (35%)|Electronics (25%)|Magnetic Material (25%)|Glass (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 00:59:56,E-waste,79.03,cables,64.73,29,Copper (50%)|Plastic (35%)|Rubber (15%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 01:00:06,Non-E-waste,68.57,N/A,0.0,0,,N/A,0.0,
+2025-09-13 01:00:17,E-waste,85.18,monitor,55.67,27,Glass (40%)|Plastic (30%)|Metal (20%)|Liquid Crystal (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 01:00:27,E-waste,93.81,laptop,63.92,24,Aluminium (30%)|Plastic (25%)|Copper (20%)|Glass (15%)|Silicon (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 01:00:37,E-waste,98.0,keyboard,72.07,41,Plastic (45%)|Electronics (25%)|Metal (20%)|Rubber (10%),Hazmat_Specialized_Handling,0.8003333333333333,Hazmat_Specialized_Handling|Manual_Disassembly_General|Robotic_Screen_Removal
+2025-09-13 01:00:48,Non-E-waste,67.7,N/A,0.0,0,,N/A,0.0,
+2025-09-13 01:00:59,Non-E-waste,68.11,N/A,0.0,0,,N/A,0.0,
+2025-09-13 01:01:09,Non-E-waste,68.11,N/A,0.0,0,,N/A,0.0,
